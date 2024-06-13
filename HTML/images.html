@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/3622619/pexels-photo-3622619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100px" alt="no images">
+
+    <img src="./pexels-photo-1127739.webp" width="100px" alt="no images">
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="./pexels-photo-11277349.webp" />
+        <source media="(min-width: 460px)" srcset="./pexels-photo-11277349.webp" />
+        <!-- <img src="pexels-photo-11277349.webp" width="100px" alt="no image"> -->
+    </picture>
+
+    <!-- an image map generator -->
+    
+    <img src="pexels-photo-11277349.webp" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="413,159,74" shape="circle">
+    <area onclick="two()" target="" alt="" title="" href="" coords="2,497,468,749" shape="rect">
+</map>
+
+<script>
+    function one(){
+        alert("you clocked on one")
+    }
+    function two(){
+        alert("you clocked on two")
+    }
+</script>
+</body>
+</html>
