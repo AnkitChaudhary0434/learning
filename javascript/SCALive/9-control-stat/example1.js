@@ -9,7 +9,7 @@
 // if(n<0){
 //     document.write("the number is negative")
 // }
-// if(n==0){
+// if(n===0){
 //     document.write("the number is zero")
 // }
 // document.write("</br><hr>end of program")
