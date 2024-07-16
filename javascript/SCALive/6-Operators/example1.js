@@ -2,7 +2,7 @@
 
 // let a = 10;
 // b = 4;
-// console.log("a=", a, "b=", b, "a+b=", a + b);
+// console.log("a=", a, "b=", b, "a+b=", a + b); 
 // console.log("a=", a, "b=", b, "a-b=", a - b);
 // console.log("a=", a, "b=", b, "a*b=", a * b);
 // console.log("a=", a, "b=", b, "a/b=", a / b);
@@ -46,7 +46,8 @@
 // console.log("a=", a, "b=", b, "a<b", a < b);
 // console.log("a=", a, "b=", b, "a>=b", a >= b);
 // console.log("a=", a, "b=", b, "a<=b", a <= b);
-// console.log(a==b)
+// console.log("a=", a, "b=", b, "a=b", a==b)
+
 // c="10"
 // console.log(a==c);
 // console.log(a===c);
@@ -55,8 +56,8 @@
 
 // Logical Operators
 
-// a = 10;
-// b = 10;
+// a = 12;
+// b = 12;
 // c = 10;
 // console.log(a == b && b == c);
 // console.log(a == b || b == c);
@@ -64,12 +65,12 @@
 
 //arathmatic assignment operators
 
-// let x=10;
-// let y = 5;
+let x=10;
+let y = 5;
 
-// console.log(x=y);
-// console.log(x+=y);
-// console.log(x-=y);
-// console.log(x*=y);
-// console.log(x/=y);
-// console.log(x%=y);
+console.log(x=y);
+console.log(x+=y);
+console.log(x-=y);
+console.log(x*=y);
+console.log(x/=y);
+console.log(x%=y);
