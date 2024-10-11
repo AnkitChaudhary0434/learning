@@ -1,0 +1,1 @@
+print("\\bobby is a good boy\n\\but\tnot a \"bad\" boy")
