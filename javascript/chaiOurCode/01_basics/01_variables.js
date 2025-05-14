@@ -16,5 +16,4 @@ console.log(accountId);
 . Prefer not to use var keyword, because of issue in block scope and functional scope
 . use let instead.
 */
-
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
